@@ -1,17 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lucas Daniel Oude Vrielink</title>
-    <link rel="stylesheet" href="./style.css">
+    <title>LDOV</title>
+    <link href="./output.css" rel="stylesheet">
 </head>
-<body>
 
-    <main>
-        <h1>Lucas Daniel Oude Vrielink</h1>
-        <span>hello@lucasov.com</span>
-    </main>
+<body>
+    <div class="h-screen bg-cover bg-center relative" style="background-image: url('./img/standing.jpg');">
+        <div class="absolute top-0 right-0 flex p-5 2xl:p-10 gap-5 2xl:gap-10">
+            <a href="https://github.com/LucasDaniOV" target="_blank"><img class="h-12" src="./img/github_logo.svg" alt="GitHub logo"></a>
+            <a href="https://www.linkedin.com/in/lucasdanieloudevrielink/" target="_blank"><img class="h-12" src="./img/linkedin_logo.svg" alt="LinkedIn logo"></a>
+        </div>
+        <h1 class="text-white text-4xl sm:text-5xl lg:text-6xl 2xl:text-8xl font-black text-center absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" style="text-shadow: 1px 1px 1px #000;">Hey! I'm Lucas<br>A student software engineer</h1>
+    </div>
+
+    <div class="p-5 2xl:p-10 flex flex-col gap-5 2xl:gap-10">
+        <h2 class="text-4xl font-bold text-red-600 2xl:text-5xl">What can I do for you?</h2>
+        <div class="grid grid-cols-auto-fit-300 gap-5 2xl:gap-10">
+            <div class="flex flex-col gap-5 p-5 bg-slate-100">
+                <img class="h-20 2xl:h-24" src="./img/dev_icon.svg" alt="development symbol">
+                <h3 class="text-3xl font-semibold text-center 2xl:text-4xl">Development</h3>
+                <ul class="list-disc list-inside 2xl:text-xl">
+                    <li>Design and develop a custom API for your application</li>
+                    <li>Build a full-stack webapp</li>
+                    <li>Implement security mechanisms using protocols like JWT and OAuth2</li>
+                    <li>Integrate external identity providers such as Keycloak</li>
+                    <li>Develop scripts to automate repetitive tasks and streamline your workflow</li>
+                    <li>Containerize your applications with Docker</li>
+                </ul>
+            </div>
+            <div class="flex flex-col gap-5 p-5 bg-slate-100">
+                <img class="h-20 2xl:h-24" src="./img/data_icon.svg" alt="data symbol">
+                <h3 class="text-3xl font-semibold text-center 2xl:text-4xl">Data</h3>
+                <ul class="list-disc list-inside 2xl:text-xl">
+                    <li>Design and implement ERD models</li>
+                    <li>Create interactive data visualizations and reports, allowing you to understand trends and patterns in your data</li>
+                    <li>Build machine learning models to analyze your data and make predictions, helping you optimize processes and identify opportunities for growth</li>
+                </ul>
+            </div>
+            <div class="flex flex-col gap-5 p-5 bg-slate-100">
+                <img class="h-20 2xl:h-24" src="./img/config_icon.svg" alt="configuration symbol">
+                <h3 class="text-3xl font-semibold text-center 2xl:text-4xl">Configuration</h3>
+                <ul class="list-disc list-inside 2xl:text-xl">
+                    <li>Configure DNS and email servers</li>
+                    <li>Create Ansible playbooks for automated deployment and configuration of your infrastructure</li>
+                    <li>Set up automated backup solutions</li>
+                </ul>
+            </div>
+        </div>
+
+        <hr>
+
+        <h2 class="text-4xl font-bold 2xl:text-5xl text-red-600">My tech stack</h2>
+        <div class="flex flex-wrap gap-5 2xl:gap-10">
+            <img class="h-20 2xl:h-24" src="./img/linux_logo.png" alt="Linux logo">
+            <img class="h-20 2xl:h-24" src="./img/python_logo.png" alt="Python logo">
+            <img class="h-20 2xl:h-24" src="./img/java_logo.png" alt="Java logo">
+            <img class="h-20 2xl:h-24" src="./img/javascript_logo.png" alt="JavaScript logo">
+            <img class="h-20 2xl:h-24" src="./img/typescript_logo.svg" alt="TypeScript logo">
+            <img class="h-20 2xl:h-24" src="./img/php_logo.png" alt="PHP logo">
+            <img class="h-20 2xl:h-24" src="./img/docker_logo.png" alt="Docker logo">
+            <img class="h-20 2xl:h-24" src="./img/git_logo.png" alt="Git logo">
+            <img class="h-20 2xl:h-24" src="./img/postgresql_logo.png" alt="Postgresql logo">
+            <img class="h-20 2xl:h-24" src="./img/react_logo.png" alt="React logo">
+            <img class="h-20 2xl:h-24" src="./img/nextjs_logo.png" alt="Nextjs logo">
+            <img class="h-20 2xl:h-24" src="./img/threejs_logo.png" alt="Threejs logo">
+            <img class="h-14 2xl:h-16" src="./img/azure_logo.png" alt="Azure logo">
+        </div>
+
+        <hr>
+
+        <h2 class="text-4xl font-bold 2xl:text-5xl text-red-600">Work experience</h2>
+        <div>
+            <h3 class="text-xl 2xl:text-3xl font-semibold pb-5">Student Back-End Developer at <a class="underline" href="https://monocode.be" target="_blank">monocode</a> since August 2022</h3>
+            <ul class="list-disc list-inside 2xl:text-xl">
+                <li>Developed a PHP and Bash pipeline in Buddy CI/CD to automatically update, build and test websites (Spinupwp API, Clickup API, Trello API, Slack API)</li>
+                <li>Built a website using PHP and JavaScript that allows our project manager to automatically allocate tasks to the next sprint (Clickup API, Everhour API)</li>
+                <li>Developed a timesheets overview website in PHP and JavaScript providing weekly snapshots of developers billing efficiency (Teamleader API, Everhour API)</li>
+            </ul>
+        </div>
+
+        <hr>
+
+        <h2 class="text-4xl font-bold 2xl:text-5xl text-red-600">Education</h2>
+        <h3 class="text-xl 2xl:text-3xl font-semibold pb-5">Applied Computer Science at <a class="underline" href="https://www.ucll.be/en" target="_blank">University Colleges Leuven-Limburg</a>, graduating in June 2025</h3>
+    </div>
+
+    <img class="rotate-180 w-screen" src="./img/wavesOpacity.svg" alt="">
+    <div class="bg-black px-5 py-10 2xl:px-10 flex flex-col items-center justify-center gap-5 2xl:gap-10">
+        <h2 class="text-white text-4xl sm:text-5xl lg:text-6xl 2xl:text-8xl font-black">Let's get in touch!</h2>
+        <a class="text-white bg-red-600 p-5 2xl:p-10 rounded-full text-lg 2xl:text-2xl font-semibold" href="mailto:lucas@lucasov.com">lucas@lucasov.com</a>
+    </div>
 
 </body>
+
 </html>
